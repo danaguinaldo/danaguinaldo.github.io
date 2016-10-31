@@ -1,0 +1,62 @@
+body {
+    background-color: #E5FCC2;
+    color: #594F4F;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 60px;
+}
+
+.container {
+    height: 100%;
+}
+
+a, a:link, a:visited {
+    text-decoration: none;
+    color: #594F4F;
+}
+
+a:active, a:hover {
+    color: #45ADA8;
+}
+
+.navbar {
+    background-color: #9DE0AD;
+}
+
+.navbar-right {
+    padding-right: 60px;
+}
+
+.navbar-brand {
+    padding-left: 60px;
+}
+
+.about, .portfolio, .contact {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.footer {
+    background-color: #9DE0AD;
+    height: 100%;
+    text-align: center;
+    padding-top: 7px;
+}
+
+hr {
+    background-color: #594F4F;
+    color: #594F4F;
+    height: 1px;
+    width: 50%;
+}
+
+.portfolio-images {
+   width: 400px;
+   height: 200px;
+}
+
+h2 {
+    padding-bottom: 20px;
+}
