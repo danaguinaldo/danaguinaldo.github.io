@@ -1,5 +1,5 @@
 body {
-    background-color: #b5a397;
+    background-color: #EFEFEF;
     color: #30231d;
     font-family: 'Raleway', sans-serif;
     padding-top: 60px;
@@ -11,15 +11,15 @@ body {
 
 a, a:link, a:visited {
     text-decoration: none;
-    color: #30231d;
+    color: #A9A9A9;
 }
 
 a:active, a:hover {
-    color: #6a5750;
+    color: #FF3B3F;
 }
 
 .navbar {
-    background-color: #f6f1ed;
+    background-color: #CAEBF2;
 }
 
 .navbar-right {
@@ -39,7 +39,8 @@ a:active, a:hover {
 }
 
 .footer {
-    background-color: #f6f1ed;
+    background-color: #CAEBF2;
+    color: #A9A9A9;
     height: 200%;
     text-align: center;
     padding-top: 7px;

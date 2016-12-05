@@ -1,0 +1,6 @@
+git init
+git add *
+git remote add
+git commit -m "message"
+git push
+git status
