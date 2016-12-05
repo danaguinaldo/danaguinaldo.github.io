@@ -1,6 +1,6 @@
 body {
-    background-color: #E5FCC2;
-    color: #594F4F;
+    background-color: #b5a397;
+    color: #30231d;
     font-family: 'Raleway', sans-serif;
     padding-top: 60px;
 }
@@ -11,15 +11,15 @@ body {
 
 a, a:link, a:visited {
     text-decoration: none;
-    color: #594F4F;
+    color: #30231d;
 }
 
 a:active, a:hover {
-    color: #45ADA8;
+    color: #6a5750;
 }
 
 .navbar {
-    background-color: #9DE0AD;
+    background-color: #f6f1ed;
 }
 
 .navbar-right {
@@ -39,17 +39,17 @@ a:active, a:hover {
 }
 
 .footer {
-    background-color: #9DE0AD;
-    height: 100%;
+    background-color: #f6f1ed;
+    height: 200%;
     text-align: center;
     padding-top: 7px;
 }
 
 hr {
-    background-color: #594F4F;
-    color: #594F4F;
+    background-color: #30231d;
     height: 1px;
     width: 50%;
+    border: none;
 }
 
 .portfolio-images {
