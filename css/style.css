@@ -61,11 +61,15 @@ h2 {
 }
 
 @media screen and (max-width: 768px) {
+    a.navbar-brand {
+        display: none;
+    }
 
     .burger {
         display: block;
         float: right;
         cursor: pointer;
+        padding-top: 5%;
     }
 
     .portfolio-images {
