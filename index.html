@@ -2,13 +2,17 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
         <!-- CSS --> 
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
-       <link rel="icon" type="image/ico" href="images/favicon-desktop.ico">
+        <!-- JS -->
+        <script src='js/jquery-3.1.1.min.js'></script>
+        <script src='js/script.js'></script>
+        
+        <link rel="icon" type="image/ico" href="images/favicon-desktop.ico">
 
         <title>Danny's Portfolio</title>
     </head>
@@ -18,9 +22,10 @@
             <div class="container-fluid">
                 <div class='container'>
                     <div class="navbar-header">
-                        <a class="navbar-brand" href="http://danaguinaldo.github.io"> Danny <i class="fa fa-desktop fa-1x"></i></a>
+                            <a class="navbar-brand col-xs-12" href="http://danaguinaldo.github.io"> Danny </a>
+                            <a class='burger navbar-right'><i class='fa fa-bars fa-2x'></i></a>
                     </div>
-                    <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav navbar-right nav-pills nav-stacked navbar-collapse">
                         <li><a href="#about">About</a></li>
                         <li><a href="#portfolio">Portfolio</a></li>
                         <li><a href="#contact">Contact</a></li>
@@ -30,7 +35,7 @@
         </nav>
 
         <div class="container-fluid">
-            <div class="container">
+            <div class="container col-xs-12 col-sm-12">
                 <div class="about" id="about">
                     <h1> Front End Web Developer ~ Software Developer </h1>
                     <hr>
@@ -45,20 +50,36 @@
                 </div>
                 <div class="portfolio" id="portfolio">
                     <h2> Portfolio </h2>
-                    <a href="https://codepen.io/danaguinaldo/full/GjvddP/"><img class="portfolio-images" src="images/portfolioexample.PNG" alt="Portfolio"></a>
-                    <h6> Example of Portfolio </h6>
-                    <a href="https://codepen.io/danaguinaldo/full/GjyBbq/"><img class="portfolio-images" src="images/quote.PNG" alt="Quote Machine"></a>
-                    <h6> Quote Machine </h6>
-                    <a href="https://codepen.io/danaguinaldo/full/PGpdgG/"><img class="portfolio-images" src="images/tribute.PNG" alt="Tribute Page"></a>
-                    <h6> Tribute Page </h6>
-                    <a href="http://codepen.io/danaguinaldo/full/GjwxYN/"><img class="portfolio-images" src="images/WeatherApp.PNG" alt="Weather App"></a>
-                    <h6> Weather App </h6>
-                    <a href="http://codepen.io/danaguinaldo/full/LbpYxr/"><img class="portfolio-images" src="images/wikipedia.PNG" alt="Weather App"></a>
-                    <h6> Wikipedia Viewer </h6>
+                    <div class='row'>
+                        <div class='col-xl-6 col-md-6 col-sm-12'>
+                            <a href="https://codepen.io/danaguinaldo/full/GjvddP/"><img class="portfolio-images" src="images/portfolioexample.PNG" alt="Portfolio"></a>
+                            <h6> Example of Portfolio </h6>
+                        </div>
+                        <div class='col-xl-6 col-md-6 col-sm-12'>
+                            <a href="https://codepen.io/danaguinaldo/full/GjyBbq/"><img class="portfolio-images" src="images/quote.PNG" alt="Quote Machine"></a>
+                            <h6> Quote Machine </h6>
+                        </div>
+                        <div class='col-xl-6 col-md-6 col-sm-12'>
+                            <a href="https://codepen.io/danaguinaldo/full/PGpdgG/"><img class="portfolio-images" src="images/tribute.PNG" alt="Tribute Page"></a>
+                            <h6> Tribute Page </h6>
+                        </div>
+                        <div class='col-xl-6 col-md-6 col-sm-12'>
+                            <a href="http://codepen.io/danaguinaldo/full/GjwxYN/"><img class="portfolio-images" src="images/WeatherApp.PNG" alt="Weather App"></a>
+                            <h6> Weather App </h6>
+                        </div>
+                        <div class='col-xl-6 col-md-6 col-sm-12'>
+                            <a href="http://codepen.io/danaguinaldo/full/LbpYxr/"><img class="portfolio-images" src="images/wikipedia.PNG" alt="Weather App"></a>
+                            <h6> Wikipedia Viewer </h6>
+                        </div>
+                        <div class='col-xl-6 col-md-6 col-sm-12'>
+                            <a href="https://codepen.io/danaguinaldo/full/womqqY/"><img class="portfolio-images" src="images/twitch.PNG" alt="Twitch Viewer"></a>
+                            <h6> Twitch Viewer </h6>
+                        </div>
+                    </div>
                 </div>
                 <div class="contact" style="border: none;" id="contact">
                     <h2> Contact Me </h2>
-                    <img src="images/profile.jpg" alt="Profile Image">
+                    <img src="images/profile.jpg" alt="Profile Image" class='profile-pic'>
                     <h5> Christ Follower | Church Deacon | Youth Leader | Worship Leader </h5> 
                     <h3> Danny Reyes Aguinaldo </h3>
                     <h3> dan.r.aguinaldo@gmail.com </h3>
