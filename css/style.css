@@ -133,7 +133,7 @@ hr {
 }
 
 .contact-container {
-    background-color: #D98C60;
+    background-color: #e8e8e8;
 }
 
 .contact p {
@@ -141,7 +141,7 @@ hr {
 }
 
 .contact p a:hover, .contact p a:link, .contact p a:visited, .contact p a:active {
-    color: #fdfdfd;
+    color: #D98C60;
     text-decoration: none;
 }
 
@@ -274,5 +274,10 @@ hr {
     .sliding-underline:hover:after {
         width: 100%;
         background: #fdfdfd;
+    }
+
+    .email-link.sliding-underline:hover:after {
+        width: 100%;
+        background: #D98C60;
     }
 }
