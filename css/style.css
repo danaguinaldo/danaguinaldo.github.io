@@ -220,8 +220,13 @@ hr {
     }
 
     .skill-logo {
-        width: 60%;
-        height: 60%;
+        width: 30%;
+        height: 30%;
+    }
+
+    .js-logo, .jq-logo, .p-logo {
+        width: 50%;
+        height: 50%;
     }
 
     .project-images {
